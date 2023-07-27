@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,a,span,ul,ol{
+	padding: 0; 
+	margin: 0;
+
+}
+/*navigation css part start*/
+#navigation{
+	background-color:#fcdb00 ;
+}
+.fast{
+	display: flex;
+	margin-top: 20px;
+}
+.text1{
+	margin-left: 8px;
+}
+.text2 ul li a{
+	font-family: upper;
+	margin: 30px;
+	color: black;
+	font-size: 25px;
+}
+.text2 ul {
+	display: flex;
+	margin: 20px;
+}
+.second{
+	margin-top: 131PX;
+}
+.second p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 13px;
+}
+.second h6{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+.icon ul{
+	display: flex;
+
+	
+}
+.icon ul li a{
+	font-size: 42px;
+	color: black;
+	margin-right: 30px;
+}
+.img{
+	background-image: url(../picture/mobile.png);
+	margin-top: 70px;
+	margin-left: 45px;
+	padding-bottom: 104px;
+	background-repeat: no-repeat;
+	height: 600px;
+	position: relative;
+
+}
+.logo2{
+	position: absolute;
+	top: 220px;
+	left: 80px;
+}
+.three_dot{
+	position: relative;
+}
+.first_dot{
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	bottom: 20px;
+	left:  580px;
+	background-color: white;
+	border-radius: 10px;
+}
+.second_dot{
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	bottom: 20px;
+	left: 610px;
+	background-color: #feed80;
+	border-radius: 10px;
+}
+.third_dot{
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	bottom: 20px;
+	left: 640px;
+	background-color: #feed80;
+	border-radius: 10px;
+}
+/*future part css start*/
+.text_content{
+	margin-top:126px ;
+	text-align: center;
+
+}
+.text_content h4{
+	margin-bottom: 20px;
+	font-size: 32px;
+}
+.text_content p{
+   width: 60%;
+   margin-left: 230px;
+   margin-bottom: 80px;
+}
+.mobile{
+	display: flex;
+}
+.text1{
+	margin-left: 30px;
+	margin-bottom: 80px;
+}
+.text1 h5{
+	margin-bottom: 20px;
+}
+/*footer css part start*/
+footer{
+	background-color: black;
+}
+.text_content1{
+	margin-top:126px ;
+	text-align: center;
+
+}
+.text_content1 h4{
+	margin-bottom: 20px;
+	font-size: 32px;
+	color: #fcdb00;
+}
+.text_content1 p{
+   width: 60%;
+   margin-left: 230px;
+   margin-bottom: 40px;
+   color: white;
+}
+.navbar{
+		margin-left: 450PX;
+}
+.container-fluid{
+	width: 1000px;
+}
+.btn {
+	background-color:#fcdb00 ;
+	color: black;
+    text-transform: uppercase;
+}
+.btn:hover{
+	background-color: #fcdb00;
+	border:2 px solid #fcdb00;
+	color: black;
+}
+.icon1{
+	margin-top: 30px;
+	margin-left: 480px;
+	margin-bottom: 40px;
+}
+.icon1 ul{
+	display: flex;
+
+	
+}
+.icon1 ul li a{
+	font-size: 42px;
+	color: black;
+	margin-right: 30px;
+	background-color: #fcdb00;
+	border-radius: 5px;
+}
+.bottom{
+	color: white;
+}
+
+
+
+/*footer css part end*/
+/*future part css end*/
+/*navigation css part end*/
